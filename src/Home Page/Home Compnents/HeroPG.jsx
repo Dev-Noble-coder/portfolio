@@ -1,7 +1,22 @@
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const HeroPG = () => {
+
+    useEffect(() => {
+        AOS.init({
+          duration: 2000, // Duration of the animation
+          once: false,
+          offset: 100,
+          delay : 300
+        });
+      }, []);
+      
+
+
     const typedRef = useRef(null);
 
     useEffect(() => {
@@ -30,7 +45,7 @@ const HeroPG = () => {
     return (
         <div className='min-h-screen bg-black text-white'>
             <div className='flex flex-col-reverse sm:flex-col lg:flex-row justify-around items-center min-h-screen relative px-3'>
-                <div>
+                <div id='left'  data-aos="fade-right">
                     <p className='pb-1'>SOFTWARE DEVELOPER</p>
                     <h1 className='text-5xl sm:text-8xl font-semibold'>
                         I am <span className='txt'>Favour</span>
@@ -69,7 +84,9 @@ const HeroPG = () => {
                         </div>
                     </div>
                 </div>
-                <div>
+
+
+                <div id='right'  data-aos="fade-left">
                     dknclksvlihe9igh9idgfi9s
                 </div>
             </div>
