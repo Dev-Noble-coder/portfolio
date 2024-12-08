@@ -23,7 +23,7 @@ const Navbar = () => {
             <a href="#home" className="hover:text-[#FF014F]">Home</a>
             <a href="#services" className="hover:text-[#FF014F]">Services</a>
             <a href="#projects" className="hover:text-[#FF014F]">Projects</a>
-            <a href="#testimonials" className="hover:text-[#FF014F]">Testimonials</a>
+            <a href="#testimonials" className="hover:text-[#FF014F]">Certificates</a>
             <a href="#contact" className="bg-[#FF014F] py-2 px-3 rounded-md">Contact Me</a>
           </nav>
         </div>
@@ -56,7 +56,7 @@ const Navbar = () => {
             Projects
           </a>
           <a href="#testimonials" onClick={handleCloseMenu} className="hover:text-[#FF014F]">
-            Testimonials
+           Certificates
           </a>
           <a
             href="#contact"

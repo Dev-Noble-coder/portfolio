@@ -16,11 +16,11 @@ const Services = () => {
       
     return (
         <div className='bg-black py-16 text-white '>
-            <div className='pl-3 sm:pl-20 lg:pl-36 pb-5'>
+            <div className='pl-3 sm:pl-20 lg:pl-24 pb-5'>
                 <p className='text-xl font-semibold pb-2'><span><i class='bx bx-label text-[#FF014F] '></i></span> My Services</p>
                 <p className='font-semibold'>What Can I Do</p>
             </div>
-            <div className='grid grid-cols-1 sm:grid-cols-2 w-full lg:grid-cols-3 px-4 sm:px-20 lg:px-36 gap-5'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 w-full lg:grid-cols-3 px-4 sm:px-20 lg:px-24 gap-5'>
                 <div className='bg-zinc-800 py-10 px-12 flex justify-center flex-col items-center' data-aos="fade-up">
                     <span><i class='bx bxs-pencil text-[#FF014F] text-4xl'></i></span>
                     <p className='font-semibold'>Creative Design</p>

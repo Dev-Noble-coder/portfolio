@@ -45,7 +45,7 @@ const HeroPG = () => {
         <div className='min-h-screen bg-black text-white'>
             <div className='flex flex-col-reverse sm:flex-col lg:flex-row justify-around items-center min-h-screen relative px-3'>
                 <div id='left'  data-aos="fade-right">
-                    <p className='pb-1'>SOFTWARE DEVELOPER</p>
+                    <p className='pb-1'><span><i class='bx bx-label text-[#FF014F] '></i></span> SOFTWARE DEVELOPER</p>
                     <h1 className='text-5xl sm:text-8xl font-semibold'>
                         I am <span className='txt'>Favour</span>
                     </h1>

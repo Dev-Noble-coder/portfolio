@@ -3,6 +3,7 @@ import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import abtimg from '../../assets/abtimg.jpg'
 
 const About = () => {
 
@@ -19,9 +20,9 @@ const About = () => {
 
   return (
     <div className='flex flex-col-reverse lg:flex-row justify-center items-center bg-zinc-950 text-white py-16 gap-16 px-3'>
-    <div className="w-full min-w-[300px] sm:max-w-[384px] border rounded-2xl" data-aos="fade-up">
+    <div className="w-full min-w-[300px] sm:max-w-[500px] border rounded-2xl" data-aos="fade-up">
   <img
-    src="https://img.freepik.com/free-photo/man-with-arms-crossed_23-2148666516.jpg?ga=GA1.1.384133121.1729851340&semt=ais_hybrid"
+    src={abtimg}
     alt=""
     className="object-cover w-full h-auto rounded-2xl"
   />
