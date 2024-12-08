@@ -22,11 +22,10 @@ const HeroPG = () => {
     useEffect(() => {
         const options = {
             strings: [
-                " I am Full Stack Developer.",
+                " I am Front End Developer.",
                 " I am Creative Problem Solver.",
                 "I am an Innovator.",
                 "I am a Tech Enthusiast.",
-                'I am an Instrumentalist',
                 'Start Up Founder'
             ],
             typeSpeed: 50,
