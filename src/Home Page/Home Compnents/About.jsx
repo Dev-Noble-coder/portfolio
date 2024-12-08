@@ -19,7 +19,7 @@ const About = () => {
 
   return (
     <div className='flex flex-col-reverse lg:flex-row justify-center items-center bg-zinc-950 text-white py-16 gap-16 px-3'>
-    <div className="w-full max-w-[300px] sm:max-w-[384px] border rounded-2xl" data-aos="fade-up">
+    <div className="w-full min-w-[300px] sm:max-w-[384px] border rounded-2xl" data-aos="fade-up">
   <img
     src="https://img.freepik.com/free-photo/man-with-arms-crossed_23-2148666516.jpg?ga=GA1.1.384133121.1729851340&semt=ais_hybrid"
     alt=""
@@ -27,7 +27,7 @@ const About = () => {
   />
 </div>
 
-      <div className='' data-aos="fade-right">
+      <div className='px-2' data-aos="fade-right">
         <p className='text-xl font-semibold pb-2'><span><i class='bx bx-label text-[#FF014F] '></i></span> About Me</p>
         <h2 className='font-semibold pb-2'>Who Am I ?</h2>
         <div className='max-w-xl text-sm pb-2'>
