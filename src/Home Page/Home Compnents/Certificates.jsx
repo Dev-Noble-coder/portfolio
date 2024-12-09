@@ -4,10 +4,11 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper/modules";
+import cert1 from '../../assets/cert1.png'
 
 const Certificates = () => {
     const certificates = [
-        "https://via.placeholder.com/600x400.png?text=Certificate+1",
+        cert1,
         "https://via.placeholder.com/600x400.png?text=Certificate+2",
         "https://via.placeholder.com/600x400.png?text=Certificate+3",
         "https://via.placeholder.com/600x400.png?text=Certificate+4",

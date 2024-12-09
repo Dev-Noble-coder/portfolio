@@ -56,10 +56,13 @@ const HeroPG = () => {
                     <span ref={typedRef} className="inline text-xl "></span> {/* Add the typing effect here */}
 
                     <div className='flex flex-col sm:flex-row justify-start sm:items-center gap-5 pt-5'>
-                        <button className='bg-[#FF014F] py-2 px-3 rounded-md flex justify-center items-center gap-2'>
-                            <span><i class='bx bxs-download'></i></span>
-                            <p>Dowload Resume</p>
-                        </button>
+                        <a href="/resume.pdf" download="Adebayo_Favour_Ayomide's_Resume.pdf">
+                            <button className="bg-[#FF014F] py-2 px-3 rounded-md flex justify-center items-center gap-2">
+                                <span><i className="bx bxs-download"></i></span>
+                                <p>Download Resume</p>
+                            </button>
+                        </a>
+
                         <button className='border border-[#FF014F] py-2 px-3 rounded-md flex justify-center items-center gap-2 hover:bg-[#FF014F] duration-300 ease-in-out'>
                             <span><i class='bx bxs-contact'></i></span>
                             <a href="#contact"><p>Contact Me</p></a>

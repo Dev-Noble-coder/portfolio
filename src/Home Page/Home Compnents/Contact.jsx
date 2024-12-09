@@ -1,11 +1,22 @@
-import React from "react";
+import React, { useEffect, useRef } from 'react';
+import Typed from 'typed.js';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+    useEffect(() => {
+        AOS.init({
+          duration: 2000, // Duration of the animation
+          once: false,
+          offset: 100,
+          delay : 100
+        });
+      }, []);
     return (
         <div className="bg-gray-100 py-16 px-4 sm:px-8 lg:px-24" id="contact">
             <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                 {/* Left Section: Image */}
-                <div className="flex justify-center">
+                <div className="flex justify-center" data-aos="zoom-in-right">
                     <img
                         src="https://img.freepik.com/free-photo/studio-shot-beautiful-happy-curly-woman-gestures-smiles-wears-ski-goggles_273609-32800.jpg?ga=GA1.1.384133121.1729851340&semt=ais_hybrid"
                         alt="Contact Illustration"
@@ -14,7 +25,7 @@ const Contact = () => {
                 </div>
 
                 {/* Right Section: Form */}
-                <div className="bg-white p-6 rounded-xl shadow-md">
+                <div className="bg-white p-6 rounded-xl shadow-md" data-aos="zoom-in-left">
                     <h2 className="text-2xl font-bold text-gray-800 mb-4">
                         Get in Touch
                     </h2>
