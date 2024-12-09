@@ -74,7 +74,7 @@ const HeroPG = () => {
                                 <a href="https://www.linkedin.com/in/adebayo-favour-36a6aa327/" target="_blank"><i class='bx bxl-linkedin-square text-white  text-3xl'></i></a>
                             </span>
                             <span>
-                                <a href="https://wa.me/07075688609" target="_blank" rel="noopener noreferrer">
+                                <a href="https://wa.me/+2347075688609" target="_blank" rel="noopener noreferrer">
                                     <i class='bx bxl-whatsapp-square text-white text-3xl'></i>
                                 </a>
                             </span>

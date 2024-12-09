@@ -47,7 +47,7 @@ const About = () => {
         <button className='border border-[#FF014F] hover:bg-[#FF014F] transition-all duration-300 ease-in-out  py-2 px-3 rounded-md flex justify-center items-center gap-2'>
           <span>🚀</span>
 
-          <a href="https://wa.me/07075688609" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/+2347075688609" target="_blank" rel="noopener noreferrer">
             <p>Connect With Me</p>
           </a>
         </button>
