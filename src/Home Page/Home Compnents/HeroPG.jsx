@@ -88,7 +88,7 @@ const HeroPG = () => {
                     <img
                         src={myimg}
                         alt=""
-                        className="rounded-full object-cover w-full h-auto aspect-square"
+                        className="rounded-full object-cover w-full h-auto aspect-square  border-[#cf3d69] border-4"
                     />
                 </div>
 
