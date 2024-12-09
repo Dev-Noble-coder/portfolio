@@ -62,7 +62,8 @@ const HeroPG = () => {
                         </button>
                         <button className='border border-[#FF014F] py-2 px-3 rounded-md flex justify-center items-center gap-2 hover:bg-[#FF014F] duration-300 ease-in-out'>
                             <span><i class='bx bxs-contact'></i></span>
-                            <p>Contact Me</p>
+                            <a href="#contact"><p>Contact Me</p></a>
+
                         </button>
                     </div>
 
@@ -70,16 +71,19 @@ const HeroPG = () => {
                     <div>
                         <div className='flex items-center justify-center sm:justify-start gap-2 py-4 sm:py-3'>
                             <span>
-                                <a href=""><i class='bx bxl-linkedin-square text-white sm:text-[#FF014F] text-3xl'></i></a>
+                                <a href="https://www.linkedin.com/in/adebayo-favour-36a6aa327/" target="_blank"><i class='bx bxl-linkedin-square text-white  text-3xl'></i></a>
                             </span>
                             <span>
-                                <a href=""><i class='bx bxl-whatsapp-square text-white sm:text-[#FF014F] text-3xl'></i></a>
+                                <a href="https://wa.me/07075688609" target="_blank" rel="noopener noreferrer">
+                                    <i class='bx bxl-whatsapp-square text-white text-3xl'></i>
+                                </a>
+                            </span>
+
+                            <span>
+                                <a href="https://www.instagram.com/fade.bayo637/" target='_blank'><i class='bx bxl-instagram-alt text-white text-3xl'></i></a>
                             </span>
                             <span>
-                                <a href=""><i class='bx bxl-instagram-alt text-white sm:text-[#FF014F] text-3xl'></i></a>
-                            </span>
-                            <span>
-                                <a href=""><i class='bx bxl-twitter text-white sm:text-[#FF014F] text-3xl'></i></a>
+                                <a href="https://x.com/fadebayo637"><i class='bx bxl-twitter text-white text-3xl'></i></a>
                             </span>
                         </div>
                     </div>

@@ -20,10 +20,10 @@ const Navbar = () => {
         </div>
         <div className="hidden sm:block text-white">
           <nav className="flex items-center gap-5 font-semibold">
-            <a href="#home" className="hover:text-[#FF014F]">Home</a>
+            <a href="#" className="hover:text-[#FF014F]">Home</a>
             <a href="#services" className="hover:text-[#FF014F]">Services</a>
             <a href="#projects" className="hover:text-[#FF014F]">Projects</a>
-            <a href="#testimonials" className="hover:text-[#FF014F]">Certificates</a>
+            <a href="#certificates" className="hover:text-[#FF014F]">Certificates</a>
             <a href="#contact" className="bg-[#FF014F] py-2 px-3 rounded-md">Contact Me</a>
           </nav>
         </div>
@@ -46,7 +46,7 @@ const Navbar = () => {
             <span><i class='bx bx-x-circle text-3xl' onClick={handleCloseMenu} ></i></span>
         </div>
         <nav className="flex flex-col items-start py-5 pl-5 font-semibold gap-5 mt-10">
-          <a href="#home" onClick={handleCloseMenu} className="hover:text-[#FF014F]">
+          <a href="#" onClick={handleCloseMenu} className="hover:text-[#FF014F]">
             Home
           </a>
           <a href="#services" onClick={handleCloseMenu} className="hover:text-[#FF014F]">
@@ -55,7 +55,7 @@ const Navbar = () => {
           <a href="#projects" onClick={handleCloseMenu} className="hover:text-[#FF014F]">
             Projects
           </a>
-          <a href="#testimonials" onClick={handleCloseMenu} className="hover:text-[#FF014F]">
+          <a href="#certificates" onClick={handleCloseMenu} className="hover:text-[#FF014F]">
            Certificates
           </a>
           <a

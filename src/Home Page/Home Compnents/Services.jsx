@@ -15,7 +15,7 @@ const Services = () => {
       }, []);
       
     return (
-        <div className='bg-black py-16 text-white '>
+        <div className='bg-black py-16 text-white ' id='services'>
             <div className='pl-3 sm:pl-20 lg:pl-24 pb-5'>
                 <p className='text-xl font-semibold pb-2'><span><i class='bx bx-label text-[#FF014F] '></i></span> My Services</p>
                 <p className='font-semibold'>What Can I Do</p>

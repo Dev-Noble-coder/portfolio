@@ -12,21 +12,21 @@ const About = () => {
       duration: 2000, // Duration of the animation
       once: false,
       offset: 100,
-      delay : 300
+      delay: 300
     });
   }, []);
-  
+
 
 
   return (
     <div className='flex flex-col-reverse lg:flex-row justify-center items-center bg-zinc-950 text-white py-16 gap-16 px-3'>
-    <div className="w-full min-w-[300px] sm:max-w-[500px] border rounded-2xl" data-aos="fade-up">
-  <img
-    src={abtimg}
-    alt=""
-    className="object-cover w-full h-auto rounded-2xl"
-  />
-</div>
+      <div className="w-full min-w-[300px] sm:max-w-[500px] border rounded-2xl" data-aos="fade-up">
+        <img
+          src={abtimg}
+          alt=""
+          className="object-cover w-full h-auto rounded-2xl"
+        />
+      </div>
 
       <div className='px-2' data-aos="fade-right">
         <p className='text-xl font-semibold pb-2'><span><i class='bx bx-label text-[#FF014F] '></i></span> About Me</p>
@@ -43,10 +43,13 @@ const About = () => {
           <h3 className='font-semibold'>Connect With Me</h3>
           <p className='text-sm'>I invite you to connect if you share a passion for youth empowerment, innovation, or if you’re interested in collaborating on projects that drive positive change. Together, we can make a significant impact!</p>
         </div>
-       
+
         <button className='border border-[#FF014F] hover:bg-[#FF014F] transition-all duration-300 ease-in-out  py-2 px-3 rounded-md flex justify-center items-center gap-2'>
-        <span>🚀</span>
-          <p>Connect With Me</p>
+          <span>🚀</span>
+
+          <a href="https://wa.me/07075688609" target="_blank" rel="noopener noreferrer">
+            <p>Connect With Me</p>
+          </a>
         </button>
       </div>
     </div>
