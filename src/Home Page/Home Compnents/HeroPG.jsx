@@ -2,19 +2,20 @@ import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import myimg from '../../assets/mypic.jpg'
 
 
 const HeroPG = () => {
 
     useEffect(() => {
         AOS.init({
-          duration: 2000, // Duration of the animation
-          once: false,
-          offset: 100,
-          delay : 300
+            duration: 2000, // Duration of the animation
+            once: false,
+            offset: 100,
+            delay: 300
         });
-      }, []);
-      
+    }, []);
+
 
 
     const typedRef = useRef(null);
@@ -43,8 +44,8 @@ const HeroPG = () => {
 
     return (
         <div className='min-h-screen bg-black text-white'>
-            <div className='flex flex-col-reverse sm:flex-col lg:flex-row justify-around items-center min-h-screen relative px-3'>
-                <div id='left'  data-aos="fade-right">
+            <div className='flex flex-col-reverse sm:flex-col lg:flex-row justify-around items-center min-h-screen relative px-3 gap-5'>
+                <div id='left' data-aos="fade-right">
                     <p className='pb-1'><span><i class='bx bx-label text-[#FF014F] '></i></span> SOFTWARE DEVELOPER</p>
                     <h1 className='text-5xl sm:text-8xl font-semibold'>
                         I am <span className='txt'>Favour</span>
@@ -83,11 +84,14 @@ const HeroPG = () => {
                         </div>
                     </div>
                 </div>
-
-
-                <div id='right'  data-aos="fade-left">
-                    dknclksvlihe9igh9idgfi9s
+                <div id="right" data-aos="fade-left" className="max-w-[300px] sm:max-w-[400px]">
+                    <img
+                        src={myimg}
+                        alt=""
+                        className="rounded-full object-cover w-full h-auto aspect-square"
+                    />
                 </div>
+
             </div>
         </div>
     );
