@@ -32,7 +32,7 @@ const About = () => {
         <p className='text-xl font-semibold pb-2'><span><i class='bx bx-label text-[#FF014F] '></i></span> About Me</p>
         <h2 className='font-semibold pb-2'>Who Am I ?</h2>
         <div className='max-w-xl text-sm pb-2'>
-          <p>I am a front-end web developer. I finished from Ekiti State Government College Ado-Ekiti. I am an intern at the Ministry of Innovation Science and Development Economy(Cybernetiq), working as a front-end developer for the Hon. Commissioner Seun Fakuade. I use technologies such as HTML, CSS, JAVASCRIPT, JQUERY, BOOTSTRAP, TAILWIND CSS, FLOWBITE, REACTJS, NODEJS, PYTHON, FIGMA to create scalable, secure, and user-friendly solutions that meet the needs and expectations of various stakeholders.</p>
+          <p>I am a front-end web developer. I finished from Ekiti State Government College Ado-Ekiti. I am an intern at the Ministry of Innovation Science and Development Economy(Cybernetiq), working as a front-end developer for the Hon. Commissioner Seun Fakuade. I use technologies such as HTML, CSS, JAVASCRIPT, JQUERY, BOOTSTRAP, TAILWIND CSS, FLOWBITE, REACTJS, VUEJS, NODEJS, PYTHON, FIGMA to create scalable, secure, and user-friendly solutions that meet the needs and expectations of various stakeholders.</p>
         </div>
 
         <div className='max-w-xl pb-2'>
